@@ -91,32 +91,23 @@
                     <p>Graphviz是一個運用命令行繪圖的軟體，它能直接陳述「關係圖」上的節點、邊、方向等性質。Graphviz提供許多圖片種類，可以在<a href="http://www.graphviz.org/Gallery.php">官網</a>中挖到更多寶!</p>
                     
                     <a href="#">
-                        <img class="img-responsive" src="../img/treepic.png"  width="800" height="420" onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" alt="">
+                        <img class="img-responsive" src="../img/treepic.png" onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" alt="">
                     </a>
-                    
                     
                     <p>今天的主題想利用Graphviz搭配Python，將decision tree的結構圖做視覺化呈現(如上圖)。</p>
                     
                     <h2 class="section-heading">Install Graphviz</h2>
                     <p>首先，來<a href=http://www.graphviz.org/Download_windows.php>這裡</a>下載作業系統對應的graphviz。</p>
                     <p>安裝成功後，進行環境變數的新增: 控制台\進階系統設定\環境變數，在PATH中新增以下到最後面</p>
-                    
-                    
-                    <img class="img-responsive" src="../img/treepic.png" alt="">
-                    
+                                       
                     <blockquote>
                     <p>;C:\Program Files (x86)\Graphviz2.38\bin</p>
                     </blockquote>
-                    
-                    <img src="../img/treepic.png" alt="">
-                    
-                    
+
                     <p>在Command Line中輸入 dot -V，如果成功會返回</p>
                     <blockquote>
                     <p>dot - graphviz version 2.38.0 (20140413.2041)</p>
                     </blockquote>
-                    
-                    <img src="../img/treepic.png" width="50" height="32" >
                     
                     <h2 class="section-heading">Plot Decision Tree</h2>
                     <script src="https://gist.github.com/tp65743/4af4103ebee3ef12ed5365da6928322f.js"></script>
